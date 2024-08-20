@@ -1,0 +1,31 @@
+/* Styling the container */
+div {
+    text-align: center;
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+}
+
+/* Styling the heading */
+div h3 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 50px;
+}
+
+/* Styling the links */
+div a {
+    text-decoration: none;
+    color: #0066cc; /* Blue color for links */
+    font-weight: bold;
+    margin: 0 10px;
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect on links */
+div a:hover {
+    color: #ff6600; /* Orange color on hover */
+    transform: scale(1.1); /* Slightly increase size on hover */
+}

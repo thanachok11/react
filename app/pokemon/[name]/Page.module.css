@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background: #f0f0f0;
+  min-height: 100vh;
+}
+
+.header {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.pokemonCard {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  max-width: 300px;
+  margin: 10px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.pokemonCard:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.pokemonName {
+  font-size: 1.5rem;
+  color: #555;
+  margin: 10px 0;
+}
+
+.pokemonImage {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.pokemonDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pokemonType,
+.pokemonAbility {
+  font-size: 1rem;
+  color: #777;
+  margin: 5px 0;
+}
+.goBackButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ffcb05;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.goBackButton:hover {
+  background-color: #2a75bb;
+  color: #ffcb05;
+}
