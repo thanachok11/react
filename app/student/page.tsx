@@ -12,7 +12,7 @@ export default function Page() {
             <div className="container">
                 <div className="info">
                     <ul>
-                        <li>🔭 I’m studying <strong>KhonKhan University</strong></li>
+                        <li>🔭 I'm studying <strong>KhonKhan University</strong></li>
                         <li>🌱 I want to learn <strong>Javascript</strong></li>
                         <li>📫 How to reach me: <strong>thanachok.suwan@gmail.com</strong></li>
                         <li>ID Student:<strong>653450287-7</strong></li>
