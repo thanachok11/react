@@ -6,13 +6,13 @@ export default function Page() {
         <div>
             <header>
                 <img src="/img/IMG_6691.jpg" alt="profile" className="profile-img" />
-                <h1>Hi 👋, I'm Thanachok Suwan</h1>
+                <h1>Hi 👋, I am Thanachok Suwan</h1>
                 <h3>A frontend developer from Thanachok</h3>
             </header>
             <div className="container">
                 <div className="info">
                     <ul>
-                        <li>🔭 I'm studying <strong>KhonKhan University</strong></li>
+                        <li>🔭 I am studying <strong>KhonKhan University</strong></li>
                         <li>🌱 I want to learn <strong>Javascript</strong></li>
                         <li>📫 How to reach me: <strong>thanachok.suwan@gmail.com</strong></li>
                         <li>ID Student:<strong>653450287-7</strong></li>
